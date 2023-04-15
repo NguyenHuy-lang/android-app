@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Thực hành 2</string>
+    <string name="publisher_prompt">Chọn nhà xuất bản</string>
+    <string-array name="publishers_array">
+        <item>Đã hoàn thành</item>
+        <item>Chưa hoàn thành</item>
+
+    </string-array>
+</resources>

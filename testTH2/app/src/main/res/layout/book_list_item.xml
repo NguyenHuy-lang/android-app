@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#DCD9D9"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Ten Cong Viec"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tinhTrangTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Tình Trạng"
+            android:textColor="@color/dark_grey"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/noiDungCongViecTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nội dung công việc"
+            android:textColor="@color/dark_grey"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/ngayHoanThanhTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ngay hoan thanh"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/congTacTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cộng Tác"
+            android:textColor="@color/teal_700"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
